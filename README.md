@@ -15,15 +15,19 @@ npm install random-matrix
 
 ```javascript
 var randomMatrix = require('random-matrix');
+var seed1 = 123;
+var seed2 = 456;
 
-var generator1 = randomMatrix(123);
-var generator2 = randomMatrix(456);
+var generator1 = randomMatrix(seed1);
+var generator2 = randomMatrix(seed2);
 
 generator1.rand(0, 0) === generator1.rand(0, 0);
 generator1.rand(0, 0) !== generator2.rand(0, 0);
 generator2.rand(0, 0) === generator2.rand(0, 0);
 
-
 generator1.rand(1, 2) !== generator1.rand(2, 1);
 generator1.rand(1, 2) === generator2.rand(1, 2);
 ```
+
+#### License
+Released under the MIT License.
