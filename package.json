@@ -1,6 +1,6 @@
 {
   "name": "random-matrix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pseudo random number generator for matrix coordinates",
   "main": "src/index.js",
   "scripts": {
