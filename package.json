@@ -1,0 +1,30 @@
+{
+  "name": "random-matrix",
+  "version": "1.0.0",
+  "description": "Pseudo random number generator for matrix coordinates",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "pseudo",
+    "random",
+    "number",
+    "generator",
+    "matrix",
+    "prng",
+    "rand"
+  ],
+  "author": "Tiago Alves <letiagoalves@gmail.com> (http://letiagoalves.com)",
+  "license": "MIT",
+  "dependencies": {
+    "mout": "^0.11.0"
+  },
+  "devDependencies": {
+    "chai": "^3.1.0",
+    "grunt": "^0.4.5",
+    "grunt-eslint": "^16.0.0",
+    "grunt-mocha-cli": "^1.13.1",
+    "load-grunt-tasks": "^3.2.0"
+  }
+}
